@@ -51,6 +51,7 @@ Id is optional, if not provided it will generate a unique id for this record
 ## Fetching  documents 
 
 GET /products/mobile/1 
+
 `curl -GET "localhost:9200/products/mobiles/1?pretty"`
 ![get documents](/images/8_quiery_mobiles.jpg)
 
