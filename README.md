@@ -6,23 +6,24 @@ Open command prompt in administrative mode
 Type `elasticsearch`
 
 In browser check this site: `http://localhost:9200` or use [curl](https://curl.haxx.se/)
-![Check Elasticsearch](/images/logo.png)
-Format: ![Alt Text](url)
+
+![Check Elasticsearch](/images/1_check_elasticsearch.jpg)
 
 ## Check cluster heatlh status 
 
 ### GET /_cat/health?v&pretty 
 http://localhost:9200/_cat/health?v&pretty 
-![Check Elasticsearch](/images/logo.png)
+![Check Elasticsearch](/images/2_health.jpg)
 Format: ![Alt Text](url)
 
 ### GET /_cat/nodes?v&pretty 
 http://localhost:9200/_cat/nodes?v&pretty 
-
+![Check nodes](/images/3_nodes.jpg)
  
 ## Listing all indices 
 GET /_cat/indices?v&pretty 
 http://localhost:9200/_cat/indices?v&pretty 
+![Check indices](/images/4_list_indices.jpg)
 
 
 ## Create an index (equivalent to creating a new database) 
@@ -30,6 +31,7 @@ http://localhost:9200/_cat/indices?v&pretty
 PUT /index-name
 
 `curl -XPUT "localhost:9200/products?&pretty"`
+![Create index](/images/5_put_index.jpg)
 
 
 ##  Query a index/document 
