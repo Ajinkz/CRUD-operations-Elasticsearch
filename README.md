@@ -74,14 +74,17 @@ GET /products/mobile/1
 
 ## Deletion 
 
-For deleting record
+### For deleting record
+
 DELETE /index-name/document-name/id
   
 `curl -XDELETE "localhost:9200/products/mobiles/2?pretty"`
 ![delete document record](/images/13_delete_1.jpg)
 
-For Removing index
+### For Removing index
+
 DELETE /index-name
 
 `curl –XDELETE “localhost:9200/orders”`
+
 ![delete index](/images/13_delete_index.jpg)
