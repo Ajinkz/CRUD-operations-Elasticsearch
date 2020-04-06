@@ -30,17 +30,18 @@ http://localhost:9200/_cat/indices?v&pretty
 PUT /index-name
 
 `curl -XPUT "localhost:9200/products?&pretty"`
+
 ![Create index](/images/5_put_index.jpg)
 
 
 ##  Query a index/document 
-Apart from curl. We also use Postman or YARC for handling API request
+Apart from curl, you also use Postman or YARC for handling API request
 PUT /index-name/document-name/id
 
 ```
 { 
   “field”:”value”, 
-    ... 
+    ... : ...
 }
 ```
 Id is optional, if not provided it will generate a unique id for this record
