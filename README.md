@@ -60,6 +60,7 @@ GET /products/mobile/1
 
 `curl -GET "localhost:9200/products/mobiles/1?pretty&_source=false"`
 ![get documents](/images/9_query_filer.jpg)
+
 `curl -GET "localhost:9200/products/mobiles/1?pretty&_source=name,reviews"`
 ![get documents](/images/10_query_filer_2.jpg)
 
